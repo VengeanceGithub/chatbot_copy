@@ -13,7 +13,7 @@ nltk.download('wordnet')
 lemmatizer = WordNetLemmatizer()
 
 # Load intents file
-with open('C:\\Users\\jakka\\OneDrive\\Documents\\new\\final_copy\\intents.json', 'r', encoding='utf-8') as file:
+with open('intents.json', 'r', encoding='utf-8') as file:
     data = json.load(file)
 
 # Prepare intents and responses
